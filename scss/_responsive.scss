@@ -1,0 +1,105 @@
+@media (max-width: 1000px){
+    /*INDEX*/
+    .titu-1{
+      text-align:center;
+    }
+  
+    .caracte{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  
+    .servi-1{
+      font-size: 15px;
+
+      img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  
+    
+  
+    .difer{
+      text-align: center;
+      
+      p{
+        padding: 5px;
+      }
+    }
+   
+    .aseso h3{
+      font-size: 20px;
+
+      a{
+        margin: 0 10px;
+        font-size: 15px;
+      }
+    }
+
+    .brochure{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button1{
+      margin: 30px 0 0 20px;
+      align-content: center;
+      left: 160px;
+    }
+  
+    
+    /*TRAYECTORIA*/
+  
+    .mi-vi{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+
+      img{
+        width: 100px;
+        height: 100px;
+       }
+   }
+  
+    .compromi h2{
+      margin:5px;
+    }
+    
+    .button2{
+      right: 10px;
+    }
+    
+    /*SERVICIOS*/
+  
+    .tipos{
+      display: grid;
+      grid-template-columns:repeat(1,1fr);
+    }
+  
+    .tipos-1 p{
+      padding:20px;
+
+      img{
+        width:150px;
+        height:150px;
+      }
+    }
+    
+    /*PRODUCTOS*/
+    .cartadePro{
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:5px;   
+      .container{
+        margin: 10px 0 10px 0;
+        .card{
+          margin: 0 0 10px;
+          width: auto;
+          height: 350px;
+        }
+      }
+    }
+  
+  
+  }
