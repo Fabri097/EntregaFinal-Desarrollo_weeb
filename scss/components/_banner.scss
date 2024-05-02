@@ -1,12 +1,7 @@
 .carousel-item,
 .carousel-inner {
   width: 100%;
-  height: 400px;
-}
-
-.carousel-item img {
-  height: 500px;
-  object-fit: fill;
+  height: 200px;
 }
 
 h5{
@@ -16,10 +11,4 @@ h5{
 #carouselExampleSlidesOnly {
   height: 200px;
   overflow: hidden;
-}
-
-#carouselExampleSlidesOnly .carousel-inner .carousel-item img {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
 }

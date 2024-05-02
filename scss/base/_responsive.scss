@@ -19,7 +19,16 @@
     }
   }
 
+  .carousel-item,
+.carousel-inner {
+  width: 100%;
+  height: 150px;
+}
 
+#carouselExampleSlidesOnly {
+  height: 100px;
+  overflow: hidden;
+}
 
   .difer {
     text-align: center;
