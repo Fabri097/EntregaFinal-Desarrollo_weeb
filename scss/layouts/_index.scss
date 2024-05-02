@@ -1,3 +1,11 @@
+@import"../base/variables";
+$color-primero: #ff8f07ba;
+$color-segundo: #323232;
+$color-tercero: #2D4059;
+$color-cuarto: #ff4d29db;
+$color-quinto: white;
+$color-sexto: whitesmoke;
+
 @mixin emcabezados {
     font-family: "Ubuntu Mono", monospace;
     font-weight: 500;
@@ -8,14 +16,12 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-
 .titu-1 {
     @include emcabezados;
     text-align: center;
     padding: 5px;
-    background-color: #2D4059;
-    color: whitesmoke;
+    background-color:$color-tercero;
+    color: $color-sexto;
 }
 
 .caracte {
@@ -29,7 +35,7 @@
 }
 
 .servi-1 {
-    background-color: #ff8f07ba;
+    background-color: $color-primero;
     padding: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -48,18 +54,18 @@
 
 .difer {
     text-align: center;
-    background-color: #323232;
+    background-color: $color-segundo;
 }
 
 .titu2 h2 {
     @include emcabezados;
-    background: #2D4059;
-    color: whitesmoke;
+    background: $color-tercero;
+    color: $color-sexto;
     padding: 10px;
 }
 
 p {
-    color: #d4d4d5;
+    color: $color-sexto;
     text-align: center;
     padding: 5px;
     margin: 10px;
@@ -84,11 +90,11 @@ p {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     z-index: 0;
-    background: #ff4d29db;
+    background: $color-cuarto;
     margin-left: 20px;
 
     span {
-        color: #fff;
+        color: $color-quinto;
         display: inline-block;
         padding-left: 35px;
         text-transform: uppercase;
@@ -104,7 +110,7 @@ p {
     em {
         position: absolute;
         height: 1px;
-        background: #fff;
+        background: $color-segundo;
         width: 47%;
         right: 23px;
         top: 50%;
@@ -118,7 +124,7 @@ p {
     &:before,
     &:after {
         content: '';
-        background: #fff;
+        background:$color-quinto;
         height: 50%;
         width: 0;
         position: absolute;

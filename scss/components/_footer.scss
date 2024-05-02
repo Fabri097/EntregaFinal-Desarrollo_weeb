@@ -1,0 +1,24 @@
+/*FOOTER*/
+@import"../base/variables";
+$color-primero: #ff8f07ba;
+$color-segundo: #323232;
+$color-tercero: #2D4059;
+$color-cuarto: #ff4d29db;
+$color-quinto: white;
+$color-sexto: whitesmoke;
+
+
+
+.footer-custom{
+  margin: 0;
+  background-color: rgb(57, 51, 51);
+  color: $color-quinto;
+}
+
+.my-4{
+ margin: 0 !important;
+}
+
+.text-body-secondary{
+  color:$color-sexto !important;
+}

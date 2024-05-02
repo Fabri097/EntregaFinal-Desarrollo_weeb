@@ -5,13 +5,65 @@
   box-sizing: border-box;
 }
 
-/*navbar*/
-.nav-item a {
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
   color: whitesmoke;
 }
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
 
-.bg-dark {
-  color: #0b010d;
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
 }
 
 .carousel-item,
@@ -21,9 +73,12 @@
 }
 
 .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 500px;
+  object-fit: fill;
+}
+
+h5 {
+  color: black;
 }
 
 #carouselExampleSlidesOnly {
@@ -35,6 +90,259 @@
   height: 100%;
   width: auto;
   object-fit: cover;
+}
+
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+.navbar-custom {
+  background: linear-gradient(to right, rgb(115, 107, 107), grey);
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 10px;
+  display: flex;
+  color: whitesmoke;
+}
+.navbar-nav .nav-link:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  border-radius: 10px;
+  color: #cc833a;
+  background-color: #1c1a1a;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.comuni {
+  margin-right: 40px;
+}
+.comuni a i {
+  font-size: 30px;
+  color: #25D366;
+  padding: 20px;
+}
+.comuni a i:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  border-radius: 10px;
+  color: #cc833a;
+  background-color: #1c1a1a;
+}
+.comuni a:nth-child(2) i {
+  font-size: 30px;
+  color: #E4405F;
+}
+.comuni a:nth-child(2) i:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  border-radius: 10px;
+  color: #cc833a;
+  background-color: #1c1a1a;
+}
+
+/*FOOTER*/
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+.footer-custom {
+  margin: 0;
+  background-color: rgb(57, 51, 51);
+  color: white;
+}
+
+.my-4 {
+  margin: 0 !important;
+}
+
+.text-body-secondary {
+  color: whitesmoke !important;
+}
+
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
 }
 
 .titu-1 {
@@ -87,7 +395,7 @@
 }
 
 p {
-  color: #d4d4d5;
+  color: whitesmoke;
   text-align: center;
   padding: 5px;
   margin: 10px;
@@ -117,7 +425,7 @@ p {
   margin-left: 20px;
 }
 .button1 span {
-  color: #fff;
+  color: white;
   display: inline-block;
   padding-left: 35px;
   text-transform: uppercase;
@@ -132,7 +440,7 @@ p {
 .button1 em {
   position: absolute;
   height: 1px;
-  background: #fff;
+  background: #323232;
   width: 47%;
   right: 23px;
   top: 50%;
@@ -144,7 +452,7 @@ p {
 }
 .button1:before, .button1:after {
   content: "";
-  background: #fff;
+  background: white;
   height: 50%;
   width: 0;
   position: absolute;
@@ -180,7 +488,67 @@ p {
   transform: scaleX(0.51);
 }
 
-/*QUIENES SOMOS*/
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
 .somos {
   display: flex;
   flex-direction: column;
@@ -207,7 +575,6 @@ p {
   padding: 20px;
 }
 
-/*MISION-VISION*/
 .mi-vi {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -232,6 +599,7 @@ p {
 .mi-vi .mi-vi-1 img {
   width: 150px;
   height: 150px;
+  object-fit: contain;
 }
 
 .compromi {
@@ -275,7 +643,7 @@ p {
   margin-left: 20px;
 }
 .button2 span {
-  color: #fff;
+  color: white;
   display: inline-block;
   padding-left: 35px;
   text-transform: uppercase;
@@ -290,7 +658,7 @@ p {
 .button2 em {
   position: absolute;
   height: 1px;
-  background: #fff;
+  background: white;
   width: 47%;
   right: 23px;
   top: 50%;
@@ -302,7 +670,7 @@ p {
 }
 .button2:before, .button2:after {
   content: "";
-  background: #fff;
+  background: white;
   height: 50%;
   width: 0;
   position: absolute;
@@ -338,8 +706,67 @@ p {
   transform: scaleX(0.51);
 }
 
-/*SERVICIOS*/
-/*NUESTROS SERVICIOS*/
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
 .nuestro {
   display: flex;
   flex-direction: column;
@@ -395,12 +822,73 @@ p {
   display: block;
   margin: auto;
   padding: 5px;
+  object-fit: contain;
+}
+
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
 }
 
 .coti {
   position: relative;
   width: 100%;
-  /* Altura del viewport */
 }
 .coti::before {
   content: "";
@@ -410,6 +898,7 @@ p {
   width: 100%;
   height: 100%;
   background-image: url(../images/fondo.png);
+  object-fit: cover;
   background-size: cover;
   background-attachment: fixed;
   filter: brightness(50%);
@@ -453,7 +942,7 @@ p {
 .form .input-field .input {
   width: 100%;
   outline: none;
-  border: 1px solid #d5dbd9;
+  border: 1px solid whitesmoke;
   padding: 8px 10px;
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -461,7 +950,7 @@ p {
 .form .input-field .textarea {
   width: 100%;
   outline: none;
-  border: 1px solid #d5dbd9;
+  border: 1px solid whitesmoke;
   padding: 8px 10px;
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -476,7 +965,7 @@ p {
 .form .input-field .custom_select select {
   -webkit-appearance: none;
   appearance: none;
-  border: 1px solid #d5dbd9;
+  border: 1px solid whitesmoke;
   width: 100%;
   height: 100%;
   padding: 8px 10px;
@@ -489,7 +978,7 @@ p {
   top: 12px;
   right: 10px;
   border: 8px solid;
-  border-color: #d5dbd9 transparent transparent transparent;
+  border-color: whitesmoke transparent transparent transparent;
   pointer-events: none;
 }
 .form .input-field .input:focus, .form .input-field .textarea:focus, .form .input-field .select:focus {
@@ -501,13 +990,74 @@ p {
   font-size: 15px;
   border: 0;
   background: #fec107;
-  color: #fff;
+  color: white;
   cursor: pointer;
   border-radius: 3px;
   outline: none;
 }
 .form .input-field .btn:hover {
   background: #ffd658;
+}
+
+.aseso {
+  padding: 10px;
+  display: flex;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #323232;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.aseso .consultas a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 0 20px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  background-color: rgba(255, 77, 41, 0.8588235294);
+}
+.aseso .consultas a:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  color: #0f0f12;
+  border: solid 2px #0f0f12;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid white;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 10px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container-boton .boton {
+  width: 30px;
+  transition: ease 1s;
+  align-items: center;
+  position: relative;
+  top: 2px;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
 }
 
 .cartadePro {
@@ -521,7 +1071,7 @@ p {
 
 .container {
   position: relative;
-  margin: 20px;
+  margin: 10px 0;
 }
 .container .card {
   position: relative;
@@ -538,7 +1088,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fc8c02;
+  background: rgba(255, 143, 7, 0.7294117647);
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
@@ -546,7 +1096,6 @@ p {
   clip-path: circle(300px at 80% -20%);
 }
 .container .card:after {
-  /*content: "Artd";*/
   position: absolute;
   top: 30%;
   left: -20%;
@@ -567,7 +1116,6 @@ p {
 .container .card:hover .imgBx {
   top: 0%;
   transform: translateY(-25%);
-  /* bug  */
 }
 .container .card .imgBx img {
   position: absolute;
@@ -629,7 +1177,7 @@ p {
   font-size: 14px;
   display: inline-block;
   color: #111;
-  background: #fff;
+  background: white;
   margin: 0 5px;
   transition: 0.5s;
   color: #111;
@@ -637,7 +1185,6 @@ p {
   cursor: pointer;
 }
 .container .card .contentBx .size span:hover {
-  /* other bug */
   background: #B90000;
 }
 .container .card .contentBx .color span {
@@ -657,7 +1204,7 @@ p {
 .container .card .contentBx a {
   display: inline-block;
   padding: 10px 20px;
-  background: #fff;
+  background: white;
   border-radius: 4px;
   margin-top: 10px;
   text-decoration: none;
@@ -673,25 +1220,7 @@ p {
   transition-delay: 0.7s;
 }
 
-/*FOOTER*/
-.py-5 {
-  padding: 40px;
-}
-
-.col-6 h5, a {
-  color: whitesmoke;
-}
-
-.col-md-5 h5, p {
-  color: whitesmoke;
-}
-
-.d-flex p {
-  color: whitesmoke;
-}
-
 @media (max-width: 1000px) {
-  /*INDEX*/
   .titu-1 {
     text-align: center;
   }
@@ -705,6 +1234,7 @@ p {
   .servi-1 img {
     width: 100px;
     height: 100px;
+    object-fit: contain;
   }
   .difer {
     text-align: center;
@@ -729,7 +1259,6 @@ p {
     align-content: center;
     left: 160px;
   }
-  /*TRAYECTORIA*/
   .mi-vi {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -737,6 +1266,7 @@ p {
   .mi-vi img {
     width: 100px;
     height: 100px;
+    object-fit: contain;
   }
   .compromi h2 {
     margin: 5px;
@@ -744,7 +1274,6 @@ p {
   .button2 {
     right: 10px;
   }
-  /*SERVICIOS*/
   .tipos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -755,8 +1284,8 @@ p {
   .tipos-1 p img {
     width: 150px;
     height: 150px;
+    object-fit: contain;
   }
-  /*PRODUCTOS*/
   .cartadePro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -769,66 +1298,6 @@ p {
     margin: 0 0 10px;
     width: auto;
     height: 350px;
-  }
-}
-.aseso {
-  padding: 10px;
-  display: flex;
-  font-family: "Ubuntu Mono", monospace;
-  background-color: #323232;
-  align-items: center;
-  justify-content: center;
-  color: whitesmoke;
-}
-.aseso .consultas a {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  margin: 0 20px;
-  border: solid 2px #fdfdfd;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: whitesmoke;
-  background-color: rgba(255, 77, 41, 0.8588235294);
-}
-.aseso .consultas a:hover {
-  transform: scale(1.1);
-  background-color: whitesmoke;
-  color: #0f0f12;
-  border: solid 2px #0f0f12;
-}
-
-.container-boton {
-  background-color: #2e6329;
-  border: 1px solid white;
-  position: fixed;
-  z-index: 999;
-  border-radius: 50%;
-  bottom: 20px;
-  right: 25px;
-  padding: 10px;
-  transition: ease 0.3s;
-  animation: efecto 1.2s infinite;
-}
-.container-boton:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-.container-boton .boton {
-  width: 30px;
-  transition: ease 1s;
-  align-items: center;
-  position: relative;
-  top: 2px;
-}
-@keyframes efecto {
-  0% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
-  }
-  100% {
-    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
 }
 
