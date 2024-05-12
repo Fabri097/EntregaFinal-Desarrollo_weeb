@@ -1088,7 +1088,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 143, 7, 0.7294117647);
+  background: rgba(255, 123, 7, 0.892);
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
@@ -1121,8 +1121,9 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(20deg);
-  width: 270px;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  border-radius: 20px;
 }
 .container .card .contentBx {
   position: absolute;
@@ -1170,7 +1171,7 @@ p {
   margin-right: 10px;
 }
 .container .card .contentBx .size span {
-  width: 26px;
+  width: 40px;
   height: 26px;
   text-align: center;
   line-height: 26px;
@@ -1308,7 +1309,6 @@ p {
   .cartadePro .container .card {
     margin: 0 0 10px;
     width: auto;
-    height: 350px;
   }
 }
 
